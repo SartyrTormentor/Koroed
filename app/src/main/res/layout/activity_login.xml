@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/loginET"
+        android:layout_width="488dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="@color/statusbarcolor"
+        android:hint="@string/loginactloginbar"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:autofillHints="@string/loginactloginbar" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="488dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="135dp"
+        android:backgroundTint="@color/statusbarcolor"
+        android:hint="@string/loginactpasswordbar"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:autofillHints="@string/loginactpasswordbar" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="251dp"
+        android:layout_height="497dp"
+        android:layout_above="@+id/loginET"
+        android:layout_alignStart="@+id/loginET"
+        android:layout_alignTop="@+id/loginET"
+        android:layout_alignEnd="@+id/loginET"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="-492dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="119dp"
+        app:srcCompat="@drawable/koroedbober"
+        android:contentDescription="@string/nazvanie" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:text="@string/nazvanie"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/loginbuttonls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPassword"
+        android:layout_alignStart="@+id/loginPassword"
+        android:layout_alignEnd="@+id/loginPassword"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="123dp"
+        android:text="@string/LoginButton" />
+
+</RelativeLayout>

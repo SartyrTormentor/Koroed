@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nazvanie">Короед</string>
+    <string name="loginactloginbar">Номер телефона</string>
+    <string name="loginactpasswordbar">Пароль</string>
+    <string name="LoginButton">Войти</string>
+    <string name="buttonforregistration">Регистрация</string>
+    <string name="registerbutton">Зарегистрировать</string>
+
+</resources>

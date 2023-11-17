@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "163621421671",
+    "firebase_url": "https://koroedjava-2f982-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "koroedjava-2f982",
+    "storage_bucket": "koroedjava-2f982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163621421671:android:77e39659ebfd1cea150ac2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCoSnpxUIA3xo3Jqkf0RnjELKtkCMQhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
